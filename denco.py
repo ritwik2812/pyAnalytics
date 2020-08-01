@@ -12,7 +12,7 @@ loyal_customers.sort_values(ascending=False)[:10]
 
 #%%
 
-highest_revenue=data.groupby('custname')['revenue'].sum()
+highest_revenue=data.groupby(['custname','region']).agg[{'revenue':sum,'margin':'mean'}]
 highest_revenue.sort_values(ascending=False)
 
 #%%
