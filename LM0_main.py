@@ -62,6 +62,7 @@ Stock_Index_Price
 
 # with statsmodels
 X = sm.add_constant(X) # adding a constant
+X
  
 model = sm.OLS(Y, X).fit()
 predictions = model.predict(X) 

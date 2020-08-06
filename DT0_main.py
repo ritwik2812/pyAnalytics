@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import os
-os.listdir('E:/analytics/projects/pyanalytics/data') #change the folder to see what are the file in folder
+os.listdir('C:/Desktop/analytics/projects/pyAnalytics/data') #change the folder to see what are the file in folder
 #dataset
 #data = pd.read_csv('E:/analytics/projects/pyanalytics/data/bill_authentication.csv')
 data = pd.read_csv('https://raw.githubusercontent.com/DUanalytics/pyAnalytics/master/data/bill_authentication.csv')
@@ -39,7 +39,7 @@ clsModel.fit(X_train, y_train)
 #predict
 ypred1 = clsModel.predict(X_test)
 len(ypred1)
-
+ypred1
 #metrics
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 classification_report(y_true=y_test, y_pred= ypred1)

@@ -31,7 +31,7 @@ gpa =  [4,3.9,3.3,3.7,3.9,3.7, 2.3,3.3,3.3,1.7,2.7, 3.7,3.7,3.3,3.3, 3,2.7,3.7,2
 work_experience = [3,4,3,5,4,6,1,4,5,1,3,5, 6,4,3,1,4,6,2,3,2,1,4,1,2,6,4,2,6, 5,1,2,4,6,5,1,2,1,4,5]
 admitted = [1,1,0,1, 0,1,0,1,1,0, 0,1,1,0,1,0,0,1, 0,0,1,0,0,0,0,1,1,0, 1,1,0,0,1,1,1, 0,0,0,0,1]
 
-candidates = {'gmat':gmat, 'gpa': gpa, 'work_experience': work_experience ,'admitted': admitted  }
+candidates = {'gmat':g, 'gpa': gpa, 'work_experience': work_experience ,'admitted': admitted  }
 candidates
 type(candidates)
 

@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 labels = range(1, 11)
 plt.figure(figsize=(10, 7))
 plt.subplots_adjust(bottom=0.1)
-plt.scatter(X[:,0],X[:,1], label='True Position')
+plt.scatter(X[:0],X[:1], label='True Position')
 for label, x, y in zip(labels, X[:, 0], X[:, 1]):
     plt.annotate(  label,   xy=(x, y), xytext=(-3, 3), textcoords='offset points', ha='right', va='bottom')
 plt.show()
